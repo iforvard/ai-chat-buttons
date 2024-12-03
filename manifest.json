@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "AI Chat Buttons",
+  "version": "1.0",
+  "description": "A modern extension for quick access to AI chat services.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs"]
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-up Extension</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 10px;
+            width: 450px;
+            background-color: #f8f9fa;
+            box-sizing: border-box;
+        }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Управление количеством кнопок в ряду */
+            gap: 8px;
+            padding: 0;
+        }
+
+        button {
+            padding: 8px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+            width: 100%;
+            color: #fff;
+            height: 50px; /* Высота кнопки - можно менять */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Можно задать разные размеры для конкретных кнопок */
+        .button-large {
+            height: 50px; /* Более высокая кнопка */
+        }
+
+        .button-wide {
+            grid-column: span 2; /* Кнопка занимает 2 колонки */
+        }
+
+        .button-full-width {
+            grid-column: 1 / -1; /* Кнопка на всю ширину */
+        }
+
+        button:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container" id="buttonContainer"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
