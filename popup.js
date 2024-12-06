@@ -25,20 +25,20 @@ const aiChats = [
 ];
 
 
-// Генерация кнопок
+// Button generation
 const buttonContainer = document.getElementById('buttonContainer');
 aiChats.forEach(chat => {
     const button = document.createElement('button');
     button.textContent = chat.name;
     button.style.backgroundColor = chat.color;
-    button.dataset.url = chat.url; // Сохраняем URL в data-атрибут
+    button.dataset.url = chat.url; // Save the URL to a data attribute
     buttonContainer.appendChild(button);
 });
 
-// Делегирование событий
+// Delegation of events
 buttonContainer.addEventListener('click', event => {
     if (event.target.tagName === 'BUTTON') {
         const url = event.target.dataset.url;
-        chrome.tabs.create({ url }); // Открытие ссылки в новой вкладке
+        chrome.tabs.create({ url }); // Opening a link in a new tab
     }
 });

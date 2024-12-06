@@ -1,4 +1,5 @@
 # AI chat buttons - Pop-up Chrome Extension
+![Extension Screenshot](img.png)
 
 This is a simple pop-up extension for Google Chrome that displays a set of buttons. Each button links to a different AI chat service. When clicked, it opens the respective AI chat in a new tab.
 
