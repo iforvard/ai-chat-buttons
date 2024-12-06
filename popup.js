@@ -1,9 +1,9 @@
 const aiChats = [
     { name: 'ChatGPT', url: 'https://chat.openai.com', color: '#10a37f' }, // OpenAI green
     { name: 'Copilot', url: 'https://copilot.microsoft.com', color: '#2f2f33' }, // Microsoft dark theme
-    { name: 'BingAI', url: 'https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx', color: '#06A6D1' }, // Bing blue
     { name: 'Gemini', url: 'https://gemini.google.com', color: '#1a73e8' }, // Google blue
-    { name: 'Mistral', url: 'https://console.mistral.ai', color: '#4b3ab7' }, // Mistral purple
+    { name: 'Mistral', url: 'https://chat.mistral.ai', color: '#4b3ab7' }, // Mistral purple
+    { name: 'Grok', url: 'https://twitter.com/i/grok', color: '#000000' }, // Grok purple
     { name: 'Claude', url: 'https://claude.ai/chats', color: '#6442ff' }, // Anthropic purple
     { name: 'Perplexity', url: 'https://labs.perplexity.ai', color: '#5436da' }, // Perplexity purple
     { name: 'Poe', url: 'https://poe.com', color: '#000000' }, // Poe black
