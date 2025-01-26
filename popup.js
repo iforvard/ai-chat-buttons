@@ -1,5 +1,6 @@
 const aiChats = [
     { name: 'ChatGPT', url: 'https://chat.openai.com', color: '#10a37f' }, // OpenAI green
+    { name: 'Deepseek', url: 'https://chat.deepseek.com', color: '#1a73e8' }, // Google blue
     { name: 'Copilot', url: 'https://copilot.microsoft.com', color: '#2f2f33' }, // Microsoft dark theme
     { name: 'Gemini', url: 'https://gemini.google.com', color: '#1a73e8' }, // Google blue
     { name: 'Mistral', url: 'https://chat.mistral.ai', color: '#4b3ab7' }, // Mistral purple
@@ -12,7 +13,6 @@ const aiChats = [
     { name: 'Jasper', url: 'https://www.jasper.ai', color: '#ff7a59' }, // Jasper orange
     { name: 'YouChat', url: 'https://you.com/chat', color: '#0066ff' }, // You.com blue
     { name: 'Pi', url: 'https://pi.ai', color: '#7c3aed' }, // Pi purple
-    { name: 'Bard', url: 'https://bard.google.com', color: '#8e44ad' }, // Google Bard purple
     { name: 'HuggingChat', url: 'https://huggingface.co/chat', color: '#ffb526' }, // HuggingFace yellow
     { name: 'Character.AI', url: 'https://character.ai', color: '#ff6b6b' }, // Character.AI red
     { name: 'ChatSonic', url: 'https://writesonic.com/chat', color: '#e91e63' }, // ChatSonic pink
