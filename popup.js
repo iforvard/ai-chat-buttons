@@ -1,6 +1,7 @@
 const aiChats = [
     { name: 'ChatGPT', url: 'https://chat.openai.com', color: '#10a37f' }, // OpenAI green
     { name: 'DeepSeek', url: 'https://chat.deepseek.com', color: '#00A1E9' }, // DeepSeek blue
+    { name: 'Qwen', url: 'https://chat.qwenlm.ai/', color: '#000000' }, // Qwen black
     { name: 'Copilot', url: 'https://copilot.microsoft.com', color: '#2f2f33' }, // Microsoft dark theme
     { name: 'Gemini', url: 'https://gemini.google.com', color: '#1a73e8' }, // Google blue
     { name: 'Mistral', url: 'https://chat.mistral.ai', color: '#4b3ab7' }, // Mistral purple
